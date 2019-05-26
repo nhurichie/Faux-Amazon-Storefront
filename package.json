@@ -1,0 +1,25 @@
+{
+  "name": "Faux-Amazon-Storefront",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "init": "^0.1.2",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhurichie/Faux-Amazon-Storefront.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhurichie/Faux-Amazon-Storefront/issues"
+  },
+  "homepage": "https://github.com/nhurichie/Faux-Amazon-Storefront#readme"
+}
