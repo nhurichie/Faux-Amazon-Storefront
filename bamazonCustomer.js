@@ -57,11 +57,13 @@ var displayConnection = function () {
 //FUNCTION TO PROMPT:SELECT & PURCHASE
 //*************************************
 var shoppingCart = function () {
-  inquirer.prompt([{
-    name: "productToPurchase",
-    type: "input",
-    message: "Enter Product ID to make a purchase!"
-  }]).then(function (responseOne) {
+  inquirer.prompt([
+    {
+      type: "input",
+      name: "productToPurchase",
+      message: "Enter Product ID to make a purchase!",
+    }
+  ]).then(function (responseOne) {
     //*****************************
     //CONNECTING QUERY TO DATABASE
     //*****************************
@@ -77,11 +79,13 @@ var shoppingCart = function () {
 
         shoppingCart("Good Selection!");
       } else {
-        inquirer.prompt([{
-          name: "quantity",
-          type: "input",
-          message: "How many items do you want to put in your cart?"
-        }]).then(function (responseTwo) {
+        inquirer.prompt([
+          {
+            type: "input",
+            name: "quantity",
+            message: "How many items do you want to put in your cart?"
+          }
+        ]).then(function (responseTwo) {
 
           //********************************
           //SELECT QUANTITY CALLBACK
@@ -115,5 +119,4 @@ var shoppingCart = function () {
     })
   })
 }
-
 displayConnection();
