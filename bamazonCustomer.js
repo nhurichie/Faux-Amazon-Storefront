@@ -50,6 +50,7 @@ var displayConnection = function () {
     }
     console.log(table.toString());
     console.log("");
+    shoppingCart();
   });
 };
 

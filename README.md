@@ -26,6 +26,9 @@ To run the customer interface please follow the steps below in your terminal:
 
 4. From there you will be prompted with a series of questions to purchase product and the amount/quantity, which then will update the system and check whether it is in stock or not.
 
+![Results] (./images/productidpurchase)
+
+
 
 
 ## TECHNOLOGY USED
